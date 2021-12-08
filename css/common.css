@@ -26,6 +26,7 @@ button {
 .gallery {
   display: flex;
   flex-wrap: wrap;
+  list-style: none;
 
 }
 .gallery__item:not(:last-child) {
