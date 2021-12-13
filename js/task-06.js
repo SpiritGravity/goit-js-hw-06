@@ -10,3 +10,4 @@ validationInput.classList.remove('invalid');
     validationInput.classList.remove('valid');
 }
 };
+inputRef.addEventListener('blur', onInputBlur);
