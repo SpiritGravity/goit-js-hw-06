@@ -15,4 +15,5 @@ formData.forEach((value, name) => {
     dataFormValue[name] = value;
     })
 console.log(dataFormValue);
+loginFormRef.reset();
 };
